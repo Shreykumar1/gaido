@@ -62,10 +62,10 @@ const ThirdPage: React.FC<ThirdPageProps> = ({ nextStep, formData, prevStep, upd
           <FaArrowLeft />
         </button>
       </div>
-      <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">
+      <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center pt-10">
             Select Your City
           </h2>
-      <div className="flex  items-center justify-center min-h-screen px-4">
+      <div className="flex  items-center justify-center  px-4">
         <div className="w-full max-w-3xl ">
 
 
@@ -102,7 +102,7 @@ const ThirdPage: React.FC<ThirdPageProps> = ({ nextStep, formData, prevStep, upd
           </div>
 
           {/* Hospital Icon and Text */}
-          <div className="mt-20 flex items-center gap-6 rounded-md bg-white p-6">
+          <div className="mt-8 flex items-center gap-6 rounded-md bg-white p-6">
             <FaHospital className="text-4xl text-black" />
             <div>
               <p className="text-sm font-medium text-gray-700">

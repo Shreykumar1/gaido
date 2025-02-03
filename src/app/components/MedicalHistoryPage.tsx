@@ -90,7 +90,7 @@ const MedicalHistoryPage: React.FC<MedicalHistoryPageProps> = ({ nextStep, formD
                 className="sr-only"
                 aria-label="Get updates on WhatsApp"
               />
-              <div className={`w-10 h-6 bg-gray-200 rounded-full shadow-inner ${whatsappUpdates ? 'bg-blue-500' : ''}`}></div>
+              <div className={`w-10 h-6  rounded-full shadow-inner transition-transform duration-200 ease-in-out ${whatsappUpdates ? 'bg-black' : 'bg-gray-200'}`}></div>
               <div className={`absolute w-5 h-5 bg-white rounded-full shadow transition-transform duration-200 ease-in-out ${whatsappUpdates ? 'transform translate-x-5 ' : 'translate-x-0'}`}></div>
             </label>
           </div>
